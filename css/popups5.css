@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+body {
+	font-family: 'Roboto', 'Arial', sana-serif;
+}
+
+.clearfix {
+
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.wrapper__p5 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.order-tariff-block__p5 {
+	position: relative;
+	display: inline-block;
+	position: fixed;
+	top: 100px;
+	left: 0;
+	right: 0;
+	z-index: 999
+}
+
+.order-tariff__cros__p5 {
+	position: absolute;
+	right: 30px;
+	top: 30px
+}
+
+.order-tariff__p5 {
+	max-width: 1160px;
+	background: #13abdd;
+	box-shadow: 0 3px 32px rgba(0,0,0,0.21)
+}
+
+.order-tariff__p5 h2 {
+	font-size: 36px;
+	font-weight: lighter;
+	text-align: center;
+	color: #fff;
+	padding: 55px 0 20px 0;
+	margin: 0
+}
+
+.order-tariff__p5 p {
+	font-size: 18px;
+	font-weight: lighter;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding-bottom: 50px
+}
+
+.search-form {
+	text-align: center;
+}
+
+.search-form p {
+	margin: 0;
+	margin-left: -305px;
+	font-size: 14px;
+	font-weight: 500;	
+	padding-bottom: 15px
+}
+
+.search-form-phone p {
+	margin-left: -315px
+}
+
+.search-form-mail p {
+	margin-left: -335px
+}
+
+input[name="name"] {
+	padding-left:10px;
+	width:400px;
+	height:55px;
+	border:0;
+}
+
+input[name="phone"] {
+	padding-left:10px;
+	width:400px;
+	height:55px;
+	border:0;
+}
+
+input[name="email"] {
+	padding-left:10px;
+	width:400px;
+	height:55px;
+	border:0;
+
+}
+ 
+input {    
+	font-size: 20px;                                       
+	border:0;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	margin-right: 220px;
+	margin-left: 220px;
+	box-shadow:0 0 7px rgba(0,0,0,0.43)inset;
+}
+
+.order-tariff-application__p5 {
+	width: 400px;
+	background: #004c65;
+	text-align: center;
+	padding: 20px 4px;
+	border-radius: 5px	;
+	margin:0 auto;
+	margin-top: 5px;
+	box-shadow: 0 7px 24px rgba(0,0,0,0.2)
+}
+
+.order-tariff-application__p5 a {
+	text-decoration: none;
+	color: #f0fbff;
+	font-size: 18px;
+	font-weight: 500;
+	display: block;
+}
+
+.order-tariff-alink__p5 {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 75px;
+}
+
+.order-tariff-alink__p5 a {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: lighter;
+	color: #fff;
+	border-bottom: 2px solid #fff
+}
+
+
+
+
+
+

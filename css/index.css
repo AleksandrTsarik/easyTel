@@ -1,0 +1,902 @@
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i&subset=cyrillic');
+.main-fon{
+	background: url(../images/main-fon.jpg) 50% 50% no-repeat;
+	background-size: 100%;
+	background-size: cover;
+	height: auto;
+	margin: 0 auto;
+	z-index: 9	
+}
+
+.top-fon {
+	/*height: 1030px;*/
+	width: 100%;
+	background: #314955;
+	background: linear-gradient(to bottom, #314955, #fff);
+	z-index: 1;
+	opacity: 0.8	
+}
+.wrapper {
+	max-width:  1500px;
+	padding: 0 50px;
+	margin: 0 auto;
+}
+
+.about-tariff-box-hover-arrow, .ats-buy-ellipse-small {
+	display: none;
+}
+
+
+.top-menu_logo {
+	float: left;
+	margin-right: 260px;
+	padding-top: 40px
+}
+
+.top-main-menu li {
+	float: left;
+	list-style-type:none;
+	padding-top: 60px;
+	padding-right: 35px
+}
+
+.top-main-menu a {
+	display:block;
+	text-decoration:none;
+	color: #fff;	
+}
+
+.top-main-menu a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.link a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.top-menu-connect {
+	float: right;
+	margin-top: -75px;
+}
+
+.link {
+	font-weight: medium;	
+}
+
+.link a {
+	padding: 12px 25px
+	border-radius: 30px;
+}
+
+.top-menu-info {
+	color: #fff;
+	text-align: center;
+	margin-top:234px;
+	padding-bottom: 330px
+}
+
+.top-menu-info h1 {
+	font-size: 60px;
+	font-weight: 400;
+}
+
+.top-menu-info p {
+	font-size: 28px
+}
+
+.top-menu-down__link {
+	text-align: center
+}
+
+.top-menu-link img {
+	padding-left: 8px;
+}
+
+.top-menu-link a,
+.top-menu-connect a {
+	background: #61a9da;
+	color: #fff;
+	border-radius: 30px;
+	padding: 18px 25px
+}
+
+.top-menu-link {
+	margin-bottom: 140px
+}
+
+.top-main-menu-block {
+	text-align: center
+}
+
+.about-main-fon {
+	background: #61a9da;
+}
+
+.wrap {
+	margin: 0 -15px;
+}
+.about-main-general {
+	padding: 90px 15px 0 15px;
+	position: relative;
+}
+
+.about-main-left, 
+.about-main-right {
+	color: #fff;
+}
+
+.about-main-right {
+	float: right
+}
+
+.about-main-middle {
+	text-align: center;
+	padding-top: 265px;
+}
+
+.about-main-left, 
+.about-main-middle {
+	float: left
+}
+
+.about-main-link {
+	margin-top: 210px;
+}
+
+.about-main-link img {
+	padding-left: 8px;
+}
+
+.about-main-link a {
+	color: #5a9fcd;
+	background: #fff;
+	padding: 15px 25px;
+	text-decoration: none;
+	display: block;
+	font-size: 14px;
+	border-radius: 30px;
+	display: inline-block;
+}
+
+.about-main-link a:hover {
+	color:  #5a9fcd;
+}
+
+.about-main__text p {
+	margin: 0;
+}
+
+.about-main__text h3 {
+	margin: 0;
+}
+
+.about-main-left h3, 
+.about-main-right h3 {
+	font-size: 24px;
+}
+
+.about-main-left p, 
+.about-main-right p {
+	font-size: 18px;
+	padding-bottom: 70px
+}
+
+.about-main-left img, 
+.about-main-right img {
+	padding-bottom: 25px
+}
+
+.about-main-band-top-left {
+	position: absolute;
+	top: 200px;
+	left: 390px;
+}
+
+.about-main-band-top-right {
+	position: absolute;
+	top: 200px;
+	right: 410px;
+}
+
+.about-main-band-middle-left {
+	position: absolute;
+	top: 495px;
+	left: 380px;
+}
+
+.about-main-band-middle-right {
+	position: absolute;
+	top: 495px;
+	right: 385px;
+}
+
+.about-main-band-down-left {
+	position: absolute;
+	bottom:  215px;
+	left: 385px;
+}
+
+.about-main-band-down-right {
+	position: absolute;
+	bottom:  215px;
+	right: 400px;
+}
+
+.about-tariff-fon {
+	background: #f6f6f6;
+}
+
+.about-tariff-all {
+	padding-bottom: 85px;
+}
+
+.about-tariff-all h3 {
+	font-size: 60px;
+	text-align: center;
+	font-weight: 400;
+	padding-top: 70px;
+	padding-bottom: 55px;
+}
+
+.about-tariff-text h4 {
+	color:#fff;
+	text-align: center;
+	background: #61a9da;
+	font-size: 36px;
+	padding: 20px 0;
+	box-shadow: 0 0 22px rgba(0,0,0,0.5)
+}
+
+.about-tariff-text-box h4 {
+	margin:0;
+	color:#fff;
+	text-align: center;
+	background: #6f91a2;
+	font-size: 36px;
+	padding: 20px 0;
+}
+
+.about-tariff-info-box p:nth-child(1) {
+	background: #4c6471;		
+	padding-top: 10px;
+	color: #fff;
+	box-shadow: 3px 0 7px rgba(0,0,0,0.35)inset;
+}
+
+.about-tariff-info p,
+.about-tariff-info-box p {
+	border-bottom: 1px solid #eeeeee;
+	text-align: center;	
+	font-size: 20px;
+	margin: 0;
+	padding: 15px 0;
+}
+
+.about-tariff-box-hover {
+	position: relative;
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	text-align: center;
+	/*height: 560px*/
+}
+
+
+.about-tariff-box {
+	background: #fff;
+	text-align: center;
+	/*height: 560px*/
+}
+
+.about-tariff-size_price {
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.about-tariff-size_price p {
+	font-size: 60px;
+	margin: 0;
+}
+
+.about-tariff-size_price-1 {
+	padding-top: 13px
+}
+
+.about-tariff-size_price-2 {
+	padding-top: 73px
+}
+
+.about-tariff-link-box,
+.about-tariff-link-box-end {
+	padding-bottom: 45px
+}
+
+
+.about-tariff-link-box-1 a,
+.about-tariff-link-box a,
+.about-tariff-link-box-end a {
+	color: #333;
+	background: #fff;
+	text-decoration: none;
+	display: block;
+	font-size: 14px;
+	display: inline-block;
+	border-radius: 30px;
+	padding-bottom: 18px 65px;
+	border:1px solid #333; 
+}
+
+.about-tariff-link-box a:hover,
+.about-tariff-link-box-end a:hover {
+	color: #333;
+}
+
+.about-tariff-link,
+.about-tariff-link-box,
+.about-tariff-link-box-end {
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+
+.about-tariff-link a:hover {
+	color: #fff
+}
+
+.about-tariff-link a {
+	color: #fff;
+	background: #61a9da;
+	border-radius: 30px;
+	padding: 18px 65px;
+}
+
+
+.about-tariff-link a,
+.about-tariff-link-box a,
+.about-tariff-link-box-end a {
+	padding: 15px 80px;
+}
+
+.about-tariff-value p:nth-child(1) {
+	border-bottom: 1px solid #333;
+	margin: 0;
+}
+
+.about-tariff-value p:nth-child(2) {
+	margin-top: -13px;
+}
+
+.about-tariff-value {
+	display: inline-block;
+}
+
+.about-tariff-value p {
+	font-size: 24px
+}
+
+.about__box {
+	float: left;
+	/*align-items: stretch;*/
+}
+
+.about-tariff-box {
+	position: relative;
+}
+
+.about-tariff-plus {
+	position: absolute;
+	background: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 30px;
+	top: 119px;
+	left: 15px;
+	
+}
+
+.about-tariff-plus a {
+	text-decoration: none;
+	color: #4c6471;
+	font-size: 46px;
+	margin: -16px;
+	text-align: center;
+	display: inline-block;
+}
+
+.about-tariff-plus a:hover {
+	text-decoration: none;
+	color: #4c6471
+}
+
+.virtual-ats-fon {
+	background: url(../images/fon-ats.jpg) 50% no-repeat;
+	background-size: 100%;
+	background-size: cover;
+}
+
+.virtual-ats h2 {
+	color: #fff;
+	font-size: 48px;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 125px;
+	padding-bottom:20px; 
+	margin: 0;
+}
+
+.virtual-ats p {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+	padding-bottom: 45px;
+	margin: 0;	
+} 
+
+.virtual-ats-link {
+	margin-bottom: 250px
+}
+
+.virtual-ats-link a {
+	padding: 18px 60px;
+	font-weight: 500;
+	font-size: 14px;
+	background: #61a9da;
+	border-radius: 30px;
+	color: #fff;
+}
+
+.virtual-ats-link_block {
+	text-align: center;
+	padding-bottom: 195px
+}
+
+.ats-buy-fon {
+	background: #fff
+}
+
+.ats-buy h3 {
+	font-size: 42px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0;
+	padding-bottom: 65px;
+	padding-top: 65px;
+}
+
+.ats-buy-phone-logo p,
+.ats-buy-phone-logo {
+	line-height: 1;
+	color: #1FB0DF;	
+}
+
+.ats-buy-phone-logo p {
+	font-size: 18px
+}
+
+.ats-buy-phone-info p {
+	color: #1FB0DF;	
+	font-size: 24px;
+	line-height: 1;
+}
+
+.ats-buy-box-row {
+	padding: 0 30px
+}
+
+.ats-buy-box-row-city {
+	padding: 0 50px
+}
+
+.ats-buy-box {
+	float: left;
+}
+
+.ats-buy-box p {
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.ats-buy-phone-logo img {
+	padding-right: 15px
+}
+
+.ats-buy-phone-city img,
+.ats-buy-microphone img,
+.ats-buy-ip_phone img,
+.ats-buy-phone-logo img {
+	float: left;
+	padding-right: 20px
+}
+
+.ats-buy-phone-city p,
+.ats-buy-microphone p,
+.ats-buy-ip_phone p {
+	font-size: 24px;
+	line-height: 1;
+	color: #1FB0DF;	
+}
+
+.ats-buy-ellipse {
+	padding-top: 70px;
+	padding-bottom: 45px
+}
+
+.comment-block {
+	text-align: center;
+	padding: 0 85px
+}
+
+.comment-block p {
+	margin: 0;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	font-weight: lighter;
+	font-size: 18px;
+}
+
+.comment-block span {
+	color: #a5a5a5;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.comment-box {
+	float: left
+}
+
+.ats-buy-row h5 {
+	text-align: center;
+	font-size: 36px;
+	font-weight: lighter;
+	padding-top: 75px;
+	padding-bottom: 90px;	
+}
+
+.question-fon {
+	background: #f6f6f6;
+	margin-top:-10px;
+}
+
+.question-block {
+	padding-bottom: 50px;
+}
+
+.question-wrap {
+	margin: 0 auto;
+}
+
+.question-block h3 {
+	text-align: center;
+	font-size: 42px;
+	font-weight: lighter;
+	padding-top: 60px;
+	padding-bottom: 65px;
+}
+
+.question-block-up-right,
+.question-block-down-right {
+	float: right;
+	font-size: 48px;
+	color: #676767;
+	font-weight: 300;
+	margin-right: 25px;	
+}
+
+.question-block-up h4,
+.question-block-down h4 {
+	font-size: 24px;
+	font-weight: lighter;
+	display: inline-block;
+	margin: 0;
+	padding: 30px 0 30px 35px
+}
+
+.question-block-up {
+	border:dashed 1px #bebebe;
+	background: #fff;
+	margin-bottom: 20px
+}
+
+.question-block-down {
+	border:solid 1px #bebebe;
+	background: #fff;
+	box-shadow: 0 10px 22px rgba(0,0,0,0.1)
+}
+
+.question-block-info p {
+	padding-right:150px;
+    padding-left: 35px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.footer-fon {
+	background: #5492be
+}
+
+.footer-logo {
+	float: left
+}
+
+.footer-logo img {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.footer-logo p {
+	color: #fff;
+	padding-bottom: 50px;
+	font-size: 13px;
+	font-weight:400;
+	padding-top: 12px
+}
+
+.footer-phone {
+	padding-top: 40px;
+	margin-left: 130px;
+	display: inline-block;
+}
+
+.footer-phone p {
+	color: #FFF;
+	font-weight:400;
+	font-size: 16px
+}
+
+.footer-phone h4 {
+	color: #fff;
+	font-size: 24px;
+	font-weight:400;
+	margin: 0;
+}
+
+.footer-phone-link {
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 40px
+}
+
+.footer-phone-link a {
+	color: #fff;font-weight:400;
+	font-size: 16px
+}
+
+.footer-phone-link a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-design {
+	display: inline-block;
+	float: right;
+	padding-top: 40px
+}
+
+.footer-design h4 {
+	color: #aac9df;
+	margin: 0;
+}
+
+.footer-design p {
+	color: #aac9df;
+	margin: 0;
+	padding-bottom: 50px
+}
+
+.footer-design-company {
+	padding-left: 110px
+}
+
+.footer-design-company p {
+	padding-left: 30px
+}
+
+
+
+
+.backdrop {
+	display:none;
+	background: #acacac;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	opacity: 0.7;
+}
+
+
+
+@media(max-width: 1400px) {
+	.about-main-band-middle-left{left: 350px}
+	.about-main-band-middle-right{right: 350px}
+	.about-main-band-top-right{right: 360px}
+	.about-main-band-top-lefr{left: 360px	}
+	.about-main-band img{width: 80%}
+}
+
+@media(max-width: 1350px) {
+	.about-main-band img{width: 70%}
+	.about-main-band-middle-right{right: 325px}
+	.about-main-band-down-right{right: 310px}
+	.about-main-band-top-right{right:  310px}
+}
+
+@media(max-width: 1300px) {
+	.about-main-band img{width: 60%}
+	.about-main-band-middle-right{right: 305px}
+}
+
+@media(max-width: 1290px) {
+	.about-tariff-size_price-1{padding: 0;}
+	.about-tariff-link-box-1{margin-top: 10px}
+}
+
+@media(max-width: 1250px){
+	.about-main-band{display: none;}
+	.top-menu_logo{margin-right: 130px;}
+}
+
+@media(max-width: 1162px) {
+	.about-tariff-box, .about-tariff-box-hover {height: 580px}
+	.about__box h4{font-size: 30px}
+	.about-tariff-size_price p{font-size:40px}
+	.about-tariff-value p{font-size: 20px}
+	.about-tariff-link, .about-tariff-link-box{;margin-top: 0;}
+	.about-tariff-price{margin-top: 60px}
+	.about-tariff-price-1{margin-top: 75px}
+	.about-tariff-plus{top: 108px;}
+	.about-tariff-info p, .about-tariff-info-box p{font-size: 16px}
+	.about-tariff-size_price-2{margin-top: -4px}
+	.about-tariff-link a, .about-tariff-link-box a{padding: 15px 60px}
+	.ats-buy-box p {padding: 0}
+	.comment-block{padding: 0}
+}
+
+@media(max-width: 1108px){
+	.top-menu_logo{margin-right: 50px;}
+}
+@media(max-width: 1024px){
+		.top-main-menu li{padding-right:25px;}
+}
+
+@media(max-width: 1075px) {
+		.about-tariff-price-1{margin-top: 52px}
+}
+
+@media(max-width: 1004px) {
+		.about-tariff-price-1{margin-top: 16px}
+}
+
+@media(max-width: 990px) {
+	.about-main-middle-logo{display: none;}
+	.about-main-left{text-align: center;}
+	.about-main-right{text-align: center;margin-top: -260px;padding-bottom: 155px}
+	.about-main-middle-logo{display: none;}
+	.about-main-link{position: absolute;top: 690px;left: 55px}
+	.about-main-band{display: none;}
+	.about-main-general{padding: 40px 0 0 0}
+	.about-tariff-price-1{margin-top: 75px}
+	.about__box{margin-bottom: 25px}
+	.question-block h3{font-size: 30px;font-weight: lighter;padding-top: 35px;padding-bottom: 35px}
+	.question-block-up h4, .question-block-down h4{font-size: 16px;padding: 15px 15px 15px 15px}
+	.question-block-info p{font-size: 14px;padding:15px 15px 15px 15px;}
+	.question-block-info span{display: none;}
+	.question-block-up-right, .question-block-down-right{margin: 0;float: none;font-size: 36px;display: inline-block;}
+	.question-block-up, .question-block-down{position: relative;border-radius: 5px}
+	.question-block-up-right{position: absolute;top:-5px;right: 10px}
+	.question-block-down-right{position: absolute;top:25px;right: 15px}
+	.question-block{padding-bottom: 50px}
+	.ats-buy-ellipse{margin-left: -150px}
+	.about-main-link{top: 635px;left: 360px;}
+
+
+}
+
+@media(max-width: 970px) {
+
+	.top-menu{position: relative;}
+	.top-menu_logo{margin: 0; text-align: center; float: none;}
+	.top-main-menu{display: none}
+	.top-menu-connect{float: none; position: absolute;top:488px;left:42%;}
+	.top-menu-info h1{font-weight: 300;font-size: 60px;margin: 0;padding-bottom: 20px}
+	.top-menu-info p {font-weight: 300;font-size: 28px}
+	.top-menu-info{margin-top: 75px}
+	}
+
+@media(max-width: 870px) {
+	.top-menu-info h1{font-size: 50px}
+	.top-menu-info p {font-size: 20px}
+	.about-tariff-value p:nth-child(2){margin-top: -10px}
+	.comment-block{padding: 0}
+	.comment-box-none{display: none;}
+	.comment-box{padding-bottom: 60px}
+	.comment-block p{font-size: 16px;font-weight: lighter;padding-bottom: 16px}
+	.about-main-link{top: 635px;left: 295px;}
+	.footer{position: relative;}
+	.footer-logo{float: none;text-align: center;}
+	.footer-phone{margin: 0;padding: 0;text-align: center;}
+	.footer-logo-text{position: absolute;left: 385	px;top:245px;}
+	.footer-phone-link{padding-bottom: 30px}
+	.footer-phone p{font-size: 14px;}
+	.footer-phone{display:block;text-align: center;}
+	.footer-design-company{display: none;}
+	.footer-design{float: none;padding-left: 17px;display: block;text-align: center}
+}
+
+
+
+@media(max-width: 770px) {
+	.question-block h3{font-size: 30px;font-weight: lighter;padding-top: 35px;padding-bottom: 35px}
+	.question-block-up h4, .question-block-down h4{font-size: 16px;padding: 15px 15px 15px 15px}
+	.question-block-info p{font-size: 14px;padding:15px 15px 15px 15px;}
+	.question-block-info span{display: none;}
+	.question-block-up-right, .question-block-down-right{margin: 0;float: none;font-size: 36px;display: inline-block;}
+	.question-block-up, .question-block-down{position: relative;border-radius: 5px}
+	.question-block-up-right{position: absolute;top:-5px;right: 10px}
+	.question-block-down-right{position: absolute;top:25px;right: 15px}
+	.question-block{padding-bottom: 50px}
+}
+
+@media(max-width: 670px) {
+	.about-main-link{top: 530px;left: 210px;}
+	.ats-buy h3{font-size: 30px;font-weight: lighter;}
+	.ats-buy-phone-city img, .ats-buy-microphone img, .ats-buy-ip_phone img{float: none;}
+	.ats-buy-box-row, .ats-buy-box-row-city{padding: 0}
+	.ats-buy-box p{font-size: 18px;font-weight: 400}
+	.ats-buy-phone-logo, .ats-buy-phone-city, .ats-buy-microphone, .ats-buy-ip_phone{text-align: center;padding-bottom: 35px}
+	.ats-buy-row h5{display: none;}
+}
+
+@media(max-width: 500px) {
+	.about-main-link{top: 630px;left: 130px;}
+	.top-menu-connect{top: 545px;left: 35%;}
+}
+
+
+@media(max-width: 320px) {
+	.top-menu-info h1{font-weight: 300;font-size: 30px;margin: 0;padding-bottom: 20px}
+	.top-menu-info p {font-weight: 300;font-size: 14px}
+	.wrapper{padding: 0 30px}
+	.top-menu-link{background: none;color: #333}/*доделать!!!*/
+	.top-menu-link a{color: #333;font-weight: 500;font-size: 14px}/*доделать!!!*/
+	.about-main-general{padding: 40px 0 0 0}
+	.about-main-left p, .about-main-right p{padding-bottom: 50px}
+	.about-tariff-all h3{font-size: 36px;font-weight: lighter;}
+	.about-tariff-text h4{font-size:29px;font-weight: lighter;}
+	.about-tariff-info p, .about-tariff-info-box p{font-size:16px;}
+	.about-tariff-size_price p{font-size:48px;}
+	.about-tariff-link a, .about-tariff-link-box a{padding: 15px 51px}
+	.about-tariff-box{display: none;}
+	.about-tariff-box-hover-arrow{display: inline-block;}
+	.about-tariff-box-hover-arrow-left {top: 23px;left: 20px;position: absolute;}
+	.about-tariff-box-hover-arrow-right{top: 23px;right: 20px;position: absolute;}
+	.about-tariff-all{padding-bottom: 85px}
+	.about-tariff-value p{font-size: 19px}
+	.about-tariff-value p:nth-child(2){margin-top: -10px}
+	.virtual-ats h2{font-size: 30px;font-weight: lighter;padding-top: 75px}
+	.virtual-ats p{font-size: 16px;font-weight: lighter;padding-bottom: 35px}
+	.virtual-ats-link{margin-bottom: 90px}
+	.virtual-ats-fon {background: url(../images/fon-ats.jpg)100% 50% no-repeat;}
+	.question-block{padding-bottom: 50px}
+	.footer{position: relative;}
+	.footer-logo{float: none;text-align: center;}
+	.footer-phone{margin: 0;padding: 0;text-align: center;}
+	.footer-logo-text{position: absolute;left: 117px;top:245px;}
+	.footer-phone-link{padding-bottom: 30px}
+	.footer-phone p{font-size: 14px}
+	.footer-design-company{display: none;}
+	.footer-design{float: none;padding-left: 17px}
+}
+
+
+.individual_rate-general,
+.popups__p2,
+.popups__p3,
+.registration_order__p4,
+.popups__5 {
+	display: none;
+}
